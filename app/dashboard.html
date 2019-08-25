@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horizon</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../style/imagens/fav.ico">
+</head>
+<body class="app">
+    <nav class="navbar navbar-dark" style="padding: 10px 10px; height: 60px;">
+        <a class="navbar-brand" href="#" style="left: 50%; transform: translate(-50%, -50%);">
+            <img src="../style/imagens/logo.png" width="60px" class="d-inline-block align-top" alt="">
+        </a>
+    </nav>
+
+    <div id="content" style="padding: 24px 20px;">
+        <div class="container-fluid">
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <h1 class="h3 mb-0 text-gray-800">Painel Gestão</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="card border-left-primary shadow h-100" style="border-radius: 6px;">
+                        <div class="card-body dashboard">
+                            <div class="dashboard-titulo">Pendente</div>
+                            <div class="dashboard-valor warning">R$200,00</div>
+                            <div class="dashboard-total">2 produtos</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <div class="card border-left-primary shadow h-100" style="border-radius: 6px;">
+                        <div class="card-body dashboard">
+                            <div class="dashboard-titulo">Em Andamento</div>
+                            <div class="dashboard-valor default">R$80,00</div>
+                            <div class="dashboard-total">5 produtos</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <div class="card border-left-primary shadow h-100" style="border-radius: 6px;">
+                        <div class="card-body dashboard">
+                            <div class="dashboard-titulo">Finalizados</div>
+                            <div class="dashboard-valor success">R$1300,00</div>
+                            <div class="dashboard-total">37 produtos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table table-striped mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">Endereço</th>
+                        <th scope="col">Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Av Portugal 462</td>
+                        <td><span class="badge badge-default"></span>R$40,00</td>
+                    </tr>
+                    <tr>
+                        <td>Av Pelotas</td>
+                        <td><span class="badge badge-warning"></span>R$200,00</td>
+                    </tr>
+                    <tr>
+                        <td>Presidente Vargas</td>
+                        <td><span class="badge badge-success"></span>R$80,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+            
+
+</body>
+</html>

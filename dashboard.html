@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horizon</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="style/imagens/fav.ico">
+</head>
+<body>
+    <nav class="navbar navbar-dark" style="height:60px;">
+        <a class="navbar-brand" href="index.html">
+            <img src="style/imagens/HORIZON-logo.png" width="100" class="d-inline-block align-top" alt="">
+        </a>
+    </nav>
+
+    <div id="content" style="padding: 24px 20px;">   
+        <div class="container-fluid">
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <h1 class="h3 mb-0 text-gray-800">Painel Gestão</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="card border-left-primary shadow h-100" style="border-radius: 6px;">
+                        <div class="card-body dashboard">
+                            <div class="dashboard-titulo">Pendente</div>
+                            <div class="dashboard-valor warning">R$200,00</div>
+                            <div class="dashboard-total">2 produtos</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card border-left-primary shadow h-100" style="border-radius: 6px;">
+                        <div class="card-body dashboard">
+                            <div class="dashboard-titulo">Em Andamento</div>
+                            <div class="dashboard-valor default">R$80,00</div>
+                            <div class="dashboard-total">5 produtos</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card border-left-primary shadow h-100" style="border-radius: 6px;">
+                        <div class="card-body dashboard">
+                            <div class="dashboard-titulo">Finalizados</div>
+                            <div class="dashboard-valor success">R$1300,00</div>
+                            <div class="dashboard-total">37 produtos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table table-striped mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">Endereço</th>
+                        <th scope="col">Data</th>
+                        <th scope="col">Valor</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Av Portugal462</td>
+                        <td>01/10 08:54</td>
+                        <td>R$40,00</td>
+                        <td><span class="badge badge-warning">Pendente</span></td>
+                    </tr>
+                    <tr>
+                        <td>Av Portugal462</td>
+                        <td>01/10 08:54</td>
+                        <td>R$40,00</td>
+                        <td><span class="badge badge-default">Em andamento</span></td>
+                    </tr>
+                    <tr>
+                        <td>Av Portugal462</td>
+                        <td>01/10 08:54</td>                        
+                        <td>R$40,00</td>
+                        <td><span class="badge badge-success">Entregue</span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Em andamento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped mt-4">
+                        <thead>
+                            <tr>
+                                <th scope="col">Endereço</th>
+                                <th scope="col">Data</th>
+                                <th scope="col">Valor</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Av Portugal 462</td>
+                                <td>01/10 08:54</td>
+                                <td>R$40,00</td>
+                                <td><span class="badge badge-default">Em andamento</span></td>
+                            </tr>
+                            <tr>
+                                <td>Av Presidente Vargas</td>
+                                <td>02/10 12:54</td>
+                                <td>R$200,00</td>
+                                <td><span class="badge badge-default">Em andamento</span></td>
+                            </tr>
+                            <tr>
+                                <td>Domingos de Almeida</td>
+                                <td>01/10 08:54</td>                        
+                                <td>R$15,40</td>
+                                <td><span class="badge badge-default">Em andamento</span></td>
+                            </tr>
+        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+
+</body>
+</html>

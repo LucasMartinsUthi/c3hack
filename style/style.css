@@ -1,0 +1,211 @@
+/* Cores
+Primaria: #00A9E6
+Secondaria: #F9F871 
+
+Cinzas:
+darker: #495057
+dark: #adb5bd
+medium: #dee2e6
+light: #f8f9fa
+*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: block;
+    overflow-x: hidden !important;
+}
+
+.navbar{
+    background: #00A9E6;
+    padding: 8px 20px;
+}
+
+.cart{
+    border-width: 2px
+}
+
+.promocoes,
+.mercados{
+    padding: 24px 20px;
+}
+
+.card-img-top{
+    border-radius: 6px;
+}
+
+.card{
+    border: none;
+}
+
+.card-body{
+    padding-left: 0;
+}
+
+.card-text{
+    color: #495057;
+}
+
+.mercado{
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa
+}
+
+.mercado:hover{
+    border: 1px solid #adb5bd
+}
+
+.mercado .fechado{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    opacity: .6;
+}
+
+.mercado.fechado .fechado{
+    display: block;
+}
+
+.mercado .fechado-texto{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.mercado.fechado .fechado-texto{
+    display: block;
+}
+
+.usuario{
+    margin: 0;
+    color: #fff;
+}
+
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app .navbar-brand{
+    left: 80%;
+    transform: translate(0, -50%);
+}
+
+.dashboard{
+    padding: 15px;
+}
+
+.dashboard-titulo{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #495057;
+}
+
+.dashboard-valor{
+    font-size: 34px;
+    color: #28a745;
+    font-weight: bolder;
+}
+
+.dashboard-valor.success{
+    color: #28a745;
+}
+
+.dashboard-valor.default{
+    color: #17a2b8;
+}
+
+.dashboard-valor.warning{
+    color: #f1bb18;
+}
+
+.dashboard-total{
+    font-size: 14px;
+    color: #495057;
+}
+
+.badge{
+    padding: 6px;
+}
+
+.badge-warning{
+    color: #a0710c;
+    background: hsla(44, 89%, 52%, 0.4);
+}
+
+.badge-success{
+    color: hsl(130, 100%, 24%);
+    background: hsla(130, 89%, 52%, 0.4);
+}
+
+.badge-default{
+    color: hsl(199, 100%, 27%);
+    background: hsla(194, 95%, 34%, 0.4);
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.app .promocoes,
+.app .mercados{
+ padding: 15px 25px;
+}
+
+.app .promo{
+ padding: 0;
+}
+
+.app .badge{
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 6px;
+    display: -webkit-inline-box;
+}
+
+.app .badge-warning{
+    background: #dd9c0e;
+}
+
+.app .badge-success{
+    background: hsl(130, 99%, 37%);
+}
+
+.app .badge-default{
+    background: hsl(199, 98%, 38%);
+}
+
+.card-categoria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.card-categoria:hover{
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.card-categoria-title{
+    font-weight: bolder;
+    position: absolute;
+    padding: 5px 7px;
+    color: white;
+}
+
